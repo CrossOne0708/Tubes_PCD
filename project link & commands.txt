@@ -1,0 +1,5 @@
+RECOGNIZE IMAGE
+python recognize_faces_image.py --encodings encodings.pickle --image examples/example_01.jpg
+
+RECOGNIZE VIDEOSTREAM
+python recognize_faces_video.py --encodings encodings.pickle --output output/webcam_face_recognition_output.avi --display 1 --detection-method cnn
